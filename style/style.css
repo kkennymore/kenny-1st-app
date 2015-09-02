@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url(../images/back.jpg) fixed center;
+	width:100%;
+	height:auto;
+	margin:0 auto;	
+}
+#maincontentwrap {
+	width:100%;
+	max-width:1150px;
+	height:auto;
+	margin:0 auto;
+	ackground:rgb(20,90,50);
+	opacity:0.60;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+	position:relative;
+}
+#wrap {
+
+	margin:0 auto;
+	backgound-image: -o-linear-gradient(bottom, rgb(230,227,222) 5%, rgb(55,103,165) 24%);
+    backgound-image: -moz-linear-gradient(bottom,rgb(230,227,222) 5%, rgb(55,103,165) 24%);
+    backgound-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.24, rgb(65,105,225)), color-stop(0.62,                       rgb(65,105,225)));
+    backgound-image: -webkit-linear-gradient(bottom,rgb(230,227,222) 5%, rgb(55,103,165) 24%); 
+    backgound-image: -ms-linear-gradient(bottom, rgb(230,227,222) 5%, rgb(55,103,165) 24%);
+	backgrund-image: linear-gradient(bottom, rgb(230,227,222) 5%, rgb(55,103,165) 24%);
+	position:relative;
+	width:100%;
+	max-width:990px;
+    height:600px;
+}
+#wrap p{
+	text-align:center;
+	color:#ffffff;
+	margin-top: 0px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#header{
+	background:rgb(20,90,50);
+	width:100%;
+	max-width:1150px;
+	height:auto;
+	margin:0 auto;
+	padding:0;
+	z-index:100;
+	position:fixed;
+	border-bottom:1px solid #999;
+}
+nav {
+	text-align:center;
+}
+nav form {
+	display:inline-block;
+	list-style-type:none;
+	padding-bottom:2px;
+}
+nav form input {
+	display:inline;
+	padding: 15px 0px 9px 0px;
+	background:rgb(51,0,51);
+	border-radius:10px;
+	opacity:0.99;
+	margin-top: 30px;
+}
+nav form input{
+	padding: 15px 15px 9px 15px;
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#ffffff;
+}
+nav form input:hover {
+	text-decoration:underline;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#ffffff;
+	background-image: -o-linear-gradient(bottom, rgb(230,227,222) 5%, rgb(55,103,165) 24%);
+    background-image: -moz-linear-gradient(bottom,rgb(230,227,222) 5%, rgb(55,103,165) 24%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.24, rgb(65,105,225)),     color-stop(0.62,                       rgb(65,105,225)));
+    background-image: -webkit-linear-gradient(bottom,rgb(230,227,222) 5%, rgb(55,103,165) 24%); 
+    background-image: -ms-linear-gradient(bottom, rgb(230,227,222) 5%, rgb(55,103,165) 24%);
+	background-image: linear-gradient(bottom, rgb(230,227,222) 5%, rgb(55,103,165) 24%);
+	padding: 15px 15px 9px 15px;
+	border-radius:10px;
+	
+}
+#loginform center {
+	padding-top:50px;
+}
+#loginform center form {
+	background:#e2e2e2;
+	width:50%;
+	border-radius:10px;
+	padding:30px;
+}
+#loginform center form table td{
+	text-align:left;
+	padding:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:18px;
+}
+#footer{
+	background:rgb(38,38,38);
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding-bottom:0;
+	color:#ffffff;
+	clear:both;
+	border-top:1px solid #ffffff;
+	text-align:center;
+}
